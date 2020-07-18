@@ -73,12 +73,20 @@ button {
 }
 
 #main-nav ul li {
-  padding: 0 36px 0 36px;
   font-size: 18px;
   color: #010101;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding: 12px 24px;
+  margin-left: 36px;
   white-space: nowrap;
+}
+
+#main-nav ul li:hover {
+  background-color: #ff7286;
+  border-radius: 8px;
+}
+
+#main-nav ul li:hover a {
+  color: #ffffff;
 }
 
 #header-home .header-content {
