@@ -6,7 +6,7 @@
 
 body {
   font-size: 16px;
-  font-family: Microsoft JhengHei;
+  font-family: "Microsoft JhengHei";
   background-color: #ffffff;
 }
 
@@ -75,14 +75,19 @@ button {
 #main-nav ul li {
   font-size: 18px;
   color: #010101;
-  padding: 12px 24px;
   margin-left: 36px;
   white-space: nowrap;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+#main-nav ul li a {
+  padding: 12px 24px;
+  display: block;
 }
 
 #main-nav ul li:hover {
   background-color: #ff7286;
-  border-radius: 8px;
 }
 
 #main-nav ul li:hover a {
