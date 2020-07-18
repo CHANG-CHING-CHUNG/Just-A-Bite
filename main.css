@@ -43,6 +43,14 @@ button {
   overflow: hidden;
 }
 
+.active {
+  background-color: #ff7286;
+  border-radius: 8px;
+}
+.active a {
+  color: #ffffff;
+}
+
 #main-nav {
   display: flex;
   justify-content: space-between;
@@ -71,15 +79,6 @@ button {
   padding-top: 14px;
   padding-bottom: 14px;
   white-space: nowrap;
-}
-
-#main-nav ul li:first-child {
-  background-color: #ff7286;
-  border-radius: 8px;
-}
-
-#main-nav li:first-child a {
-  color: #ffffff;
 }
 
 #header-home .header-content {
