@@ -1,7 +1,6 @@
 /* eslint-disable no-alert */
 document.addEventListener('DOMContentLoaded', () => {
   displayPrize();
-  const lotteryBtn = document.querySelector('.lottery_btn');
   const text = document.querySelector('.text');
   const backgroundImg = document.querySelector('.lottery');
 
@@ -59,9 +58,4 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
-
-  lotteryBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    displayPrize();
-  });
 });
