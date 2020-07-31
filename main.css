@@ -402,3 +402,64 @@ footer {
   line-height: 2;
   padding-bottom: 30px;
 }
+
+.lottery {
+  background: url("./imgs/bg.png");
+  height: 767px;
+}
+
+.first {
+  background: url("./imgs/first.webp") no-repeat center center/cover;
+}
+.second {
+  background: url("./imgs/second.webp") no-repeat center center/cover;
+}
+.third {
+  background: url("./imgs/third.webp") no-repeat center center/cover;
+}
+
+.none {
+  background-color: rgba(1, 1, 1, 1);
+  color: white;
+}
+
+.lottery .lottery_wrapper {
+  max-width: 700px;
+  padding-top: 190px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.lottery::before {
+  content: "";
+  width: 100%;
+  min-height: 767px;
+  display: block;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 0;
+}
+
+.lottery .lottery_wrapper .text {
+  font-size: 36px;
+  font-family: "Microsoft JhengHei";
+  color: white;
+}
+
+.lottery .lottery_wrapper .lottery_btn {
+  padding: 18px 160px;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #e62a45;
+  color: white;
+  cursor: pointer;
+  margin-top: 55px;
+  font-size: 20px;
+}

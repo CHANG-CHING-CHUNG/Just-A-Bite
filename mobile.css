@@ -187,6 +187,14 @@
   #game-a .bonus a {
     min-width: 0;
   }
+
+  #lottery .lottery_wrapper .text {
+    font-size: 26px;
+  }
+
+  #lottery .lottery_wrapper .lottery_btn {
+    padding: 18px 100px;
+  }
 }
 
 @media (max-height: 768px) and (max-width: 1024px) {
